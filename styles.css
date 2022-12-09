@@ -1,0 +1,43 @@
+div {
+    margin: 50px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+    width: 50%;
+}
+
+#ej5 ul li:nth-child( odd ){ 
+    background-color:rgb(80, 183, 247);
+    color: white;
+}
+
+#ej6 ul li:nth-child( odd ){ 
+    background-color:rgb(80, 183, 247);
+    color: white;
+}
+
+#ej6 ul li:nth-child( 5 ){ 
+    background-color:rgb(248, 79, 135);
+}
+
+#ej7 ul li:nth-child( odd ){ 
+    background-color:rgb(80, 183, 247);
+    color: white;
+}
+
+#ej7 ul li:nth-child( 5 ){ 
+    background-color:rgb(248, 79, 135);
+}
+
+#ej7 ul li:nth-child(-n+9):nth-child(2n+7){ 
+    background-color:goldenrod;
+}
